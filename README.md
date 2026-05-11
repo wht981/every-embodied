@@ -174,6 +174,7 @@
 | **第三阶段** | 模仿学习、大模型(VLA/VLN)、Sim2Real | 复现大模型导航VLN、OpenVLA、SmolVLA 等前沿项目，实现仿真或真实部署 |
 
   ## 🔥 News & Highlights
+  - **[2026-05-11]** 新增 [DiT4DiT-LIBERO 训练与评估复现教程](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/05DiT4DiT-LIBERO/01DiT4DiT-LIBERO训练与评估.md)，覆盖官方方法图解、LIBERO 评估 smoke test、`libero_spatial` 训练 smoke test、数据元信息修复、日志与多视角视频结果展示。
   - **[2026-04-29]** 新增 [SIM1 柔体仿真与数据生成](./10-具身智能其他仿真工具及仿真前沿/09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md)、[InternVerse / InternDataEngine 小空间体验教程](./10-具身智能其他仿真工具及仿真前沿/10Internverse教程/InternDataEngine_小空间功能体验教程.md)、[EBench / GenManip 最小复现记录](./09-具身智能数据及评估基准benchmark/04-EBench.md)，补充仿真数据生成、合成数据引擎与评测基准介绍。
   - **[2026-04-11]** 新增了无人机相关教程：系统的讲解无人机从控制到轨迹生成再到轨迹优化的完整流程，包括比较难以理解的微分平坦性，SE3控制器，minimumsnap轨迹优化等内容，包含12个可运行的简单易懂案例，不用复杂的环境，不用复杂的代码，助你从零入门无人机。
   - **[2026-04-07]** 新增LeWorldModel世界模型教程和复现指导！用最通俗的话、最清晰的结构，把LeWM从头到尾讲明白，一步到位带你吃透最新的LeWM世界模型算法，不管是入门世界模型还是深入科研都能用
@@ -253,7 +254,7 @@
 | 章节                  | 关键内容                                    | 状态 |
 | :-------------------- | :------------------------------------------ | :--- |
 | **9. 具身智能benchmark和数据讲解** | [LIBERO](./09-具身智能数据及评估基准benchmark/01-libero.md)、[SimplerENV](./09-具身智能数据及评估基准benchmark/02-simplerenv.md)       | ✅    |
-| **10. VLA 大模型**    | [SmolVLA 训练和部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/01SmolVLA-LIBERO/01SmolVLA-libero.md)、[OpenVLA部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/02OpenVLA复现/02openvla复现.md)、[RT-1 / RT-2 / RT-X 论文解读与代码分析](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/03RT系列论文解读与代码分析/01RT系列论文解读与代码分析.md)  | ✅    |
+| **10. VLA 大模型**    | [SmolVLA 训练和部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/01SmolVLA-LIBERO/01SmolVLA-libero.md)、[OpenVLA部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/02OpenVLA复现/02openvla复现.md)、[DiT4DiT-LIBERO 训练与评估](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/05DiT4DiT-LIBERO/01DiT4DiT-LIBERO训练与评估.md)、[RT-1 / RT-2 / RT-X 论文解读与代码分析](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/03RT系列论文解读与代码分析/01RT系列论文解读与代码分析.md)  | ✅    |
 | **11. VLN 大模型**    | [VLN概念基础](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md)、[ETPNav](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md)  | ✅    |
 | **12. 综合项目复现** | [无人机多模态LLM导航](./13-其他前沿项目复现/无人机大模型+Groundingdino实践/无人机多模态大模型.md)| ✅    |
 
