@@ -174,6 +174,7 @@
 | **第三阶段** | 模仿学习、大模型(VLA/VLN)、Sim2Real | 复现大模型导航VLN、OpenVLA、SmolVLA 等前沿项目，实现仿真或真实部署 |
 
   ## 🔥 News & Highlights
+  - **[2026-05-12]** 新增 [Build123d 代码建模](./21-机械臂和机器人设计/01Build123d代码建模入门/README.md) 与 [Text-to-CAD 6DOF 教学机械臂](./21-机械臂和机器人设计/02Text-to-CAD工程化建模入门/README.md) 教程，补充 CAD-as-code、Codex CAD skill、STEP/STL/GLB 生成与预览。
   - **[2026-05-11]** 新增 [DiT4DiT-LIBERO 训练与评估复现教程](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/05DiT4DiT-LIBERO/01DiT4DiT-LIBERO训练与评估.md)，覆盖官方方法图解、LIBERO 评估 smoke test、`libero_spatial` 训练 smoke test、数据元信息修复、日志与多视角视频结果展示。
   - **[2026-04-29]** 新增 [SIM1 柔体仿真与数据生成](./10-具身智能其他仿真工具及仿真前沿/09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md)、[InternVerse / InternDataEngine 小空间体验教程](./10-具身智能其他仿真工具及仿真前沿/10Internverse教程/InternDataEngine_小空间功能体验教程.md)、[EBench / GenManip 最小复现记录](./09-具身智能数据及评估基准benchmark/04-EBench.md)，补充仿真数据生成、合成数据引擎与评测基准介绍。
   - **[2026-04-11]** 新增了无人机相关教程：系统的讲解无人机从控制到轨迹生成再到轨迹优化的完整流程，包括比较难以理解的微分平坦性，SE3控制器，minimumsnap轨迹优化等内容，包含12个可运行的简单易懂案例，不用复杂的环境，不用复杂的代码，助你从零入门无人机。
