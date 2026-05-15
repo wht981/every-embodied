@@ -132,6 +132,13 @@
       <br>
       <sub>连续环境视觉语言导航 (VLN-CE) 领域强力 Baseline</sub>
     </td>
+    <td width="33%" valign="top" align="center">
+      <img src="assets/lingbot_map_university.gif" width="100%">
+      <br>
+        <strong><a href="./04-具身场景的计算机视觉、3D重建/03-LingBot-Map视频流式三维重建.md">LingBot-Map 视频建图</a></strong>
+      <br>
+      <sub>从连续校园视频流式估计轨迹、深度与点云</sub>
+    </td>
   </tr>
 
 
@@ -338,7 +345,6 @@
   <br />
   你可以自由分享与改编本项目内容，但需保留来源署名。详细条款见 <a href="LICENSE">LICENSE</a>。
   </div>
-
 
 
 
