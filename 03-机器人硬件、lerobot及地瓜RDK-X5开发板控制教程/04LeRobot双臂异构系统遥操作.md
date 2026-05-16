@@ -111,9 +111,9 @@
    - 
    - 这个时候需要修改代码：
    - 每次校准修改代码之后，不用重新pip install 一次：
-   - ![image-20251022190858804](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程\assets\image-20251022190858804.png)
+   - ![image-20251022190858804](assets/image-20251022190858804.png)
    
-   ![image-20251022185552329](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程\assets\image-20251022185552329.png)
+   ![image-20251022185552329](assets/image-20251022185552329.png)
    
    这里我们两个主臂，左COM3右COM4，因此需要改两次
    
@@ -124,9 +124,9 @@
    
    
    
-   - ![image-20251022185152146](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程\assets\image-20251022185152146.png)
+   - ![image-20251022185152146](assets/image-20251022185152146.png)
    - 
-   - ![image-20251023160947944](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程\assets\image-20251023160947944.png)
+   - ![image-20251023160947944](assets/image-20251023160947944.png)
    - 
    - 
    - 

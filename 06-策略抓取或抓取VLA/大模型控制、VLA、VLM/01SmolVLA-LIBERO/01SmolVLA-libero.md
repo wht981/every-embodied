@@ -108,7 +108,7 @@ python -m lerobot.scripts.train \
 
 我用的镜像是yaya1
 
-![image-20251030144540186](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\12-待定开源教程\01SmolVLA-LIBERO\assets\image-20251030144540186.png)
+![image-20251030144540186](assets/image-20251030144540186.png)
 
 CUDA\_VISIBLE\_DEVICEs="0" 用于解决多 GPU 训练中的问题。另外，我建议将 save\_freq 调高。
 

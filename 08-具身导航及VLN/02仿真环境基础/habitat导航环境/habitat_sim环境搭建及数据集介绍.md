@@ -101,7 +101,7 @@ python examples/viewer.py --scene /path/to/data/scene_datasets/habitat-test-scen
 
 由于habitat需要授权，需要我们注册获取授权，流程也很简单，进入如下网页：https://my.matterport.com/settings/account/devtools?organization=Msg6zBCkcPg ，注册并发送验证邮箱即可，随后我们可以在这个网页的Developer Tools下的API Token Management中获取我们的API。
 
-<img src="assets\habitat_api.png"/>
+<img src="assets/habitat_api.png"/>
 
 此时我们可以使用如下命令，获取我们所需要的数据集，其中`<api-token-id>`和`<api-token-secret>`填写刚刚获取到的API。**（现在先不用下载这个数据集，了解即可，教程中未使用这个数据集，仅用作后续复现论文参考）**
 

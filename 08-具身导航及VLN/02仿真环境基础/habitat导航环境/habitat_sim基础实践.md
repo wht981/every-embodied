@@ -21,13 +21,13 @@ python habitat_test.py
 ```
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="assets\observation_0.png" alt="Image 1" style="width: 48%; margin-right: 2%;">
-  <img src="assets\observation_1.png" alt="Image 2" style="width: 48%;">
+  <img src="assets/observation_0.png" alt="Image 1" style="width: 48%; margin-right: 2%;">
+  <img src="assets/observation_1.png" alt="Image 2" style="width: 48%;">
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="assets\observation_2.png" alt="Image 1" style="width: 48%; margin-right: 2%;">
-  <img src="assets\observation_3.png" alt="Image 2" style="width: 48%;">
+  <img src="assets/observation_2.png" alt="Image 1" style="width: 48%; margin-right: 2%;">
+  <img src="assets/observation_3.png" alt="Image 2" style="width: 48%;">
 </div>
 
 ### 3. 代码详解
@@ -276,11 +276,11 @@ agent_cfg.action_space = {
 python habitat_random.py
 ```
 运行完这个文件后，我们会得到如下的结果：
-<img src="assets\random_0.png"/>
-<img src="assets\random_1.png"/>
-<img src="assets\random_2.png"/>
-<img src="assets\random_3.png"/>
-<img src="assets\random_4.png"/>
+<img src="assets/random_0.png"/>
+<img src="assets/random_1.png"/>
+<img src="assets/random_2.png"/>
+<img src="assets/random_3.png"/>
+<img src="assets/random_4.png"/>
 
 我们可以看到，rgb图像和深度图像都是正常的，但是语义图像并没有正常显示，这主要是因为我们没有加载mp3d.scene_dataset_config.json文件，这个文件可以加载我们需要的像素语义对应关系，可映射到具体的物体类别，同时还可以加载mesh地图文件。（关于mesh地图的内容在habitat_sim的navmesh详解中介绍）。
 
@@ -321,11 +321,11 @@ sim_settings = {
 
 此时，我们可以得到的输出结果为：
 
-<img src="assets\randomtest_0.png"/>
-<img src="assets\randomtest_1.png"/>
-<img src="assets\randomtest_2.png"/>
-<img src="assets\randomtest_3.png"/>
-<img src="assets\randomtest_4.png"/>
+<img src="assets/randomtest_0.png"/>
+<img src="assets/randomtest_1.png"/>
+<img src="assets/randomtest_2.png"/>
+<img src="assets/randomtest_3.png"/>
+<img src="assets/randomtest_4.png"/>
 
 可以看出，semantic图片能够正常的显示。
 
@@ -414,11 +414,11 @@ hablab_topdown_map = maps.get_topdown_map(
 
 1） 使用sim.pathfinder.get_topdown_view生成的俯视图
 
-<img src="assets\navmesh_0.png"/>
+<img src="assets/navmesh_0.png"/>
 
 2） 使用get_topdown_map生成的俯视图
 
-<img src="assets\navmesh_1.png"/>
+<img src="assets/navmesh_1.png"/>
 
 ### 3. habitat_pathfind.py代码详解
 
@@ -639,31 +639,31 @@ if display_path_agent_renders:
 
 俯视图如下：
 
-<img src="assets\pathfind2_0.png"/>
+<img src="assets/pathfind2_0.png"/>
 
 机器人第一视角运行视图如下：
 
-<img src="assets\pathfind2_1.png"/>
+<img src="assets/pathfind2_1.png"/>
 
-<img src="assets\pathfind2_2.png"/>
+<img src="assets/pathfind2_2.png"/>
 
-<img src="assets\pathfind2_3.png"/>
+<img src="assets/pathfind2_3.png"/>
 
-<img src="assets\pathfind2_4.png"/>
+<img src="assets/pathfind2_4.png"/>
 
-<img src="assets\pathfind2_5.png"/>
+<img src="assets/pathfind2_5.png"/>
 
-<img src="assets\pathfind2_6.png"/>
+<img src="assets/pathfind2_6.png"/>
 
-<img src="assets\pathfind2_7.png"/>
+<img src="assets/pathfind2_7.png"/>
 
-<img src="assets\pathfind2_8.png"/>
+<img src="assets/pathfind2_8.png"/>
 
-<img src="assets\pathfind2_9.png"/>
+<img src="assets/pathfind2_9.png"/>
 
-<img src="assets\pathfind2_10.png"/>
+<img src="assets/pathfind2_10.png"/>
 
-<img src="assets\pathfind2_11.png"/>
+<img src="assets/pathfind2_11.png"/>
 
 参考资料：
 

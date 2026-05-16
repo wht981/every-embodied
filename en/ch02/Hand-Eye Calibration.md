@@ -28,7 +28,7 @@ Hand-Eye Calibration is a fundamental and critical issue in robotic vision appli
 
 According to the installation methods of the camera, hand-eye calibration is divided into two forms: 1. If the camera is installed at the end of the robotic arm, it is called Eye-in- Hand. 2. If the camera is installed on the robot base outside the robotic arm, it is called Eye-to-Hand.
 
-![alt text](Figure\6_image_0.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_0.png)
 
 ## 6.1.2 Mathematical Model of Hand-Eye Calibration
 
@@ -57,7 +57,7 @@ $T^e_c$: The transformation that converts the camera coordinate system to the en
 
 When the camera is fixed at the end of the robotic arm, the transformation between the camera and end-effector coordinate systems remains constant. This is called "Eye-in-Hand". When performing this type of hand - eye calibration, the calibration target is fixed in one place, and then the robotic arm is controlled to move to different positions. The camera fixed on the robotic arm is used to capture images of the calibration target at different positions, and multiple sets of images of the calibration target  at different positions are taken.
 
-![alt text](Figure\6_image_1.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_1.png)
 
 Since the calibration target and the robot base are fixed, their relative pose relationship remains unchanged, so:
 
@@ -77,7 +77,7 @@ $T^e_c$ is the $H$ we need to solve finally.
 
 When the camera is fixed outside the robotic arm, the relative position between the camera and the end-effector changes as the robotic arm moves. This is called "eye-to-hand". When performing this type of hand-eye calibration, the calibration target  is fixed to the end of the robotic arm, and then the robotic arm is controlled to hold the calibration target  and capture images around the fixed camera. For the accuracy of the solution, generally more than 10 sets of photos need to be taken.
 
-![alt text](Figure\6_image_2.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_2.png)
 
 Since the calibration target is fixed at the end of the robotic arm at this time, their relative position remains unchanged when taking different photos, so:
 
@@ -141,7 +141,7 @@ $\begin{aligned}
 
 Rotation matrices belong to the SO (3) group, and the SO (3) group is a Lie group. Every Lie group has a corresponding Lie algebra. Its Lie algebra lies in a low - dimensional Euclidean space (linear space) and is the tangent space representation of the local open domain of the Lie group. Lie groups and Lie algebras can be transformed into each other through the exponential map and the logarithmic map:
 
-![alt text](Figure\6_image_3.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3.png)
 For the rotation matrix $R$, the transformation relationship with the corresponding Lie algebra $\boldsymbol{\Phi}$ can be expressed as follows:
 
 $R = \exp(Φ^{\wedge}) = \exp [Φ]$
@@ -150,7 +150,7 @@ Where the [] symbol represents the ^ operation, i.e., converting to an antisymme
 
 For SO(3), its adjoint property is:
 
-![alt text](Figure\6_image_3_1.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_1.png)
 
 $\begin{aligned}
 \theta_{A}  & =\theta_{X} \theta_{B} \theta_{X}^T \\
@@ -161,16 +161,16 @@ $\begin{aligned}
 
 When there are multiple sets of observations, the above problem can be transformed into the following least squares problem:
 
-![alt text](Figure\6_image_3_2.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_2.png)
 
 α and β are the Lie algebras of the corresponding rotations, and they are both three-dimensional vectors, which can be regarded as a three-dimensional point. Then the above problem is equivalent to a point cloud registration problem:
-![alt text](Figure\6_image_3_4_1.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_4_1.png)
 
 The least squares solution to this problem is:
-![alt text](Figure\6_image_3_3.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_3.png)
 
 Where:
-![alt text](Figure\6_image_3_4.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_4.png)
 
 ### 6.1.3.2 Solving Translation Using Park's Method
 
@@ -193,7 +193,7 @@ b_{X} &= (C^TC)^{-1}C^TD
 Then the translation part can be obtained.
 
 When there are multiple sets of observation values:
-![alt text](Figure\6_image_3_5.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_3_5.png)
 
 The final solution is:
 $\begin{aligned}
@@ -221,7 +221,7 @@ According to their implementation principles, hand-eye calibration algorithms ca
 
 ### 6.1.4.1 Hand-Eye Calibration Interfaces in OpenCV
 
-![alt text](Figure\6_image_4.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_4.png)
 
 OpenCV mainly implements the first two types of methods, with the default method being TSAI. PARK and HORAUD are also separable solutions while ANDREFF and DANIILIDIS are simultaneous closed - form solutions. (According to the experiments with the same set of data, it is concluded that the error of the solution obtained by the TSAI method in the separable solutions is relatively large.)
 
@@ -245,7 +245,7 @@ If this is your first time to perform calibration, a few points should be noted:
 
 ## 6.1.5 Evaluating Hand-Eye Calibration Effect
 
-![alt text](Figure\6_image_6.png)
+![alt text](../../02-机器人基础和控制、手眼协调/assets/6_image_6.png)
 
 ## References
 

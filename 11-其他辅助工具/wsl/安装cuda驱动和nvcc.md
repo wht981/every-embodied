@@ -40,14 +40,14 @@ https://www.nvidia.com/zh-cn/geforce/drivers/
 
 注意一定要登录nvidia，否则会403 forbidden
 
-![image-20251005114107628](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\wsl\assets\image-20251005114107628.png)
+![image-20251005114107628](assets/image-20251005114107628.png)
 
 
 
-![image-20251004231238209](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\wsl\assets\image-20251004231238209.png)
+![image-20251004231238209](assets/image-20251004231238209.png)
 
 
 
-![image-20251004231515225](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\wsl\assets\image-20251004231515225.png)
+![image-20251004231515225](assets/image-20251004231515225.png)
 
-![image-20251004231637314](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\wsl\assets\image-20251004231637314.png)
+![image-20251004231637314](assets/image-20251004231637314.png)
