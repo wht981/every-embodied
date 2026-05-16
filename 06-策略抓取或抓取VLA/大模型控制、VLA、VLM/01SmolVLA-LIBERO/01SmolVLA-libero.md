@@ -121,6 +121,11 @@ CUDA\_VISIBLE\_DEVICEs="0" 用于解决多 GPU 训练中的问题。另外，我
 
 我在 RTX 3090 上的训练如下：
 
+<img width="740" height="635" alt="1c46d2c5-443c-4958-ade5-d9b2cbf0ff24" src="https://github.com/user-attachments/assets/44c88c9a-75d0-439d-9acb-d4e502c2ea5a" />
+
+
+训练10小时左右
+
 ![SmolVLA LIBERO 训练日志](assets/image-20251030144540186.png)
 
 上面其他人报告的结果在 60k 步以上时还不错。我提前停止了，因为我想测试一下评估脚本。
