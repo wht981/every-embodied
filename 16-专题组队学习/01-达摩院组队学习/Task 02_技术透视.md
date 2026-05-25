@@ -141,6 +141,36 @@ RynnBrain 官方架构图
 
 项目Demo演示
 
+### **6.2 体验RynnBrain模型**
+
+RynnBrain 是一个具备物理感知能力的具身大脑：它能够观察第一人称视角场景，将语言锚定到物理空间与时间中，并为下游机器人系统提供可靠的定位与规划输出。
+
+👉🏻体验链接：[RynnBrain模型体验](https://developer.damo-academy.com/allSpark/model/rynnBrainExperience?modelId=183456791d8d4378925e9f29388b81bb&workspaceId=EFnKQ5eSb)
+
+![img](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c8fcaff16f6fbe278ad97b2dc37cf3aa75b8339e1c4c24831b75b38faadcd24bec177c308ebd530418fc2fab39d8fff320e547ff3f555350540a32e254c6a2a43ce53a44b12673bed5c719881d9d7cee4fb4c8ed7016461c?tmpCode=ecf714b1-46ca-49ab-b9aa-f03dd9143a46)
+
+现在，你可以拍摄或上传一张真实环境的图片或者一段视频，让RynnBrain 以第一视角进行通用问答、可操作点检测、目标框选、轨迹预测、区域预测。
+
+| 能力         | 描述                                                         |
+| ------------ | ------------------------------------------------------------ |
+| 通用问答     | 适用于常规对话和开放式问题，模型将根据指令灵活判断，直接回复文本或在图片上进行相应的视觉标记 |
+| 可操作点检测 | 识别物体上最适合交互的关键点，并在图片对应位置标记出醒目的高亮圆点，直观指示操作落点 |
+| 目标框选     | 根据指令定位目标物体，并在图片上绘制矩形边框将该物体框选出来，清晰界定目标范围 |
+| 轨迹预测     | 根据指令规划物体从起点到终点的运动路径，并在图片上标记出路径上的关键路径点，直观展示物体的移动轨迹 |
+| 区域预测     | 识别图像中满足条件的特定区域，并在该区域内部散布标记多个关键点，直观展示该空间的有效范围 |
+
+| **示例****一：目标框选**                                     |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 拍摄一张家庭厨房照片，让机器人以第一视角识别。提示词：找出桌子上的矿泉水。![img](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c8fcaff16f6fbe278ad97b2dc37cf3aa75b8339e1c4c24831b75b38faadcd24bec177c308ebd530434d2137ee9a815995b2fd78caeef2da284259dfe5f71cf27d928825b5baff6bbb1e31a5209b1969e4fb4c8ed7016461c?tmpCode=ecf714b1-46ca-49ab-b9aa-f03dd9143a46) | 回答：RynnBrain结合场景识别桌子上的矿泉水，并标记出来。![img](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c8fcaff16f6fbe278ad97b2dc37cf3aa75b8339e1c4c24831b75b38faadcd24bec177c308ebd530481040ea155c137477b17c9137adc4ed4924da60accdfce15ee43338b35fa15704155a59f1dc3f5694fb4c8ed7016461c?tmpCode=ecf714b1-46ca-49ab-b9aa-f03dd9143a46) |
+| **示例二****：轨迹预测**                                     |                                                              |
+| 拍摄一张家庭客厅照片，让机器人以第一视角识别。提示词：将电视柜上的矿泉水放进垃圾桶 | 回答：RynnBrain结合场景识别电视柜上的矿泉水和电视柜旁的垃圾桶，并标记出运动轨迹。![img](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde5c8fcaff16f6fbe278ad97b2dc37cf3aa75b8339e1c4c24831b75b38faadcd24bec177c308ebd53044b120d4863e8aea6cf99cccb3d18d26ba63ec211ca1fbec1f6516e77782a6afdb675bf44c74403034fb4c8ed7016461c?tmpCode=ecf714b1-46ca-49ab-b9aa-f03dd9143a46) |
+
+相关文章：[RynnBrian模型调用参考文档](https://developer.damo-academy.com/documentation?id=100)
+
+
+
+
+
 ## 7. RynnRCP：为什么还需要协议层
 
 模型再强，也不能自动解决机器人系统的碎片化问题。真正落地时，你仍然要面对不同机器人接口不统一、传感器类型不同、控制链路和推理链路不同步、端侧实时性和云侧算力冲突等问题。RynnRCP（Robotics Context Protocol） 的意义，正是在模型之下补上一层更工程化的连接机制。
