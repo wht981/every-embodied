@@ -9,6 +9,7 @@
 - [Isaac Sim、Isaac Lab 与 GR00T 部署导览](01Isaac部署与GR00T实践/00Isaac部署导览.md) - 统一说明本地 Windows、Linux 工作站、云服务器、Docker、micromamba/venv、Isaac Lab 和 GR00T 路线。
 - [家务机器人环境配置](04家务机器人环境配置.md) - 家务机器人仿真环境配置。
 - [SIM1 柔体仿真与数据生成](09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md) - 双臂布料操作的遥操作、replay、扩散轨迹生成与过滤流程。
+- [UniLab + MotrixSim 异构机器人 RL 训练复现](11UniLab-MotrixSim异构RL训练/README.md) - 在 6GB 显卡上跑通 UniLab 的 MotrixSim 后端、PPO 训练、资源监控和视频回放。
 
 ## 平台专题
 
@@ -19,6 +20,7 @@
 - [Genesis 可视化和渲染](Genesis仿真环境配置/02可视化和渲染.md) - Genesis 可视化和渲染实践。
 - [GenieSim 配置](07GenieSim配置.md) - GenieSim 环境配置。
 - [GenieSim3 配置](08GenieSim3配置.md) - GenieSim3 环境配置。
+- [UniLab + MotrixSim 异构训练](11UniLab-MotrixSim异构RL训练/README.md) - CPU 仿真与 GPU learner 分离的机器人 RL 训练实践。
 
 ## 仿真资源
 
@@ -32,6 +34,7 @@
 3. 高保真渲染与系统集成方向：学习 [Isaac Sim、Isaac Lab 与 GR00T 部署导览](01Isaac部署与GR00T实践/00Isaac部署导览.md)，再根据本地 Windows、Linux 工作站、云服务器或 GR00T 复现目标选择对应路线。
 4. 家务任务与复杂交互方向：学习 [家务机器人环境配置](04家务机器人环境配置.md)。
 5. 柔体操作方向：学习 [SIM1 柔体仿真与数据生成](09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md)。
+6. 强化学习训练基础设施方向：学习 [UniLab + MotrixSim 异构机器人 RL 训练复现](11UniLab-MotrixSim异构RL训练/README.md)，理解 CPU 物理仿真与 GPU 策略学习如何拆分。
 
 ## 环境要求
 
