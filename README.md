@@ -156,11 +156,11 @@
       <sub>双臂布料任务的 replay、渲染与扩散轨迹生成流程</sub>
     </td>
     <td width="33%" valign="top" align="center">
-      <img src="./21-机械臂和机器人设计/02Text-to-CAD工程化建模入门/assets/every_embodied_6dof_arm_preview.png" width="100%">
+      <img src="./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/assets/official_3dprinter_gpt52codex_frame.png" width="100%">
       <br>
-        <strong><a href="./21-机械臂和机器人设计/02Text-to-CAD工程化建模入门/README.md">Text-to-CAD 6DOF 教学机械臂</a></strong>
+        <strong><a href="./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/README.md">ForgeCAD 3D 打印机、键盘与灵巧手</a></strong>
       <br>
-      <sub>从自然语言规格生成 STEP、STL、URDF 与可预览机械臂结构</sub>
+      <sub>复刻 public kit 的 3D 打印机、视频键盘和可动灵巧手案例，跑通参数渲染 GIF 与 STEP/STL/3MF 导出</sub>
     </td>
   </tr>
 
@@ -204,6 +204,7 @@
 | **第三阶段** | 模仿学习、大模型(VLA/VLN)、Sim2Real | 复现大模型导航VLN、OpenVLA、SmolVLA 等前沿项目，实现仿真或真实部署 |
 
   ## 🔥 News & Highlights
+  - **[2026-05-31]** 新增 [ForgeCAD 官方 3D 打印机、键盘与灵巧手案例复现](./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/README.md)，对齐 `KoStard/forgecad-public-kit` 的 `3dprinter-gpt52codex` benchmark，补充视频键盘和官方可动灵巧手，跑通参数渲染 GIF、多视角截图、STEP/STL/3MF 导出和打印检查边界说明。
   - **[2026-05-31]** 新增 [UniLab + MotrixSim 异构机器人 RL 训练复现](./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/README.md)，覆盖 6GB 显卡上的 state-based RL 训练、资源占用记录、MotrixSim checkpoint 回放，以及 `uv run --no-sync demo teaser` 的 PBR renderer 多视角截图体验。
   - **[2026-05-14]** 新增 [LingBot-Map 视频流式三维重建教程](./04-具身场景的计算机视觉、3D重建/03-LingBot-Map视频流式三维重建.md)，覆盖官方连续校园场景 smoke test、点云渲染预览、环境配置、代码与论文数据流讲解，以及轻量本地 Web demo。
   - **[2026-05-12]** 新增 [Build123d 代码建模](./21-机械臂和机器人设计/01Build123d代码建模入门/README.md) 与 [Text-to-CAD 6DOF 教学机械臂](./21-机械臂和机器人设计/02Text-to-CAD工程化建模入门/README.md) 教程，补充 CAD-as-code、Codex CAD skill、STEP/STL/GLB 生成与预览。
@@ -271,7 +272,7 @@
 | **1. 具身智能概述** | [定义背景、发展历程、未来趋势](./01-具身智能概述/01具身智能概述.md) | ✅    |
 | **2. 机器人学基础** | [运动学(DH参数)](<./02-机器人基础和控制、手眼协调/02机器人运动学与 DH 参数.md>)、[动力学](02-机器人基础和控制、手眼协调/03机器人动力学.md)、[坐标变换](02-机器人基础和控制、手眼协调/01机器人空间描述与坐标变换.md) | ✅    |
 | **3. 硬件与电子**   | [地瓜开发板实战](03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/01RDKX5超新手入门教程.md)、[LeRobot遥操作](03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/03RDK-X5连接lerobot机械臂进行遥操作.md)、[传感器选型](03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/06传感器选型与数据采集.md)、[执行器原理](03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/05执行器原理与选型.md)、阿加犀开发板实战 | ✅    |
-| **4. 软件基础设施** | ROS/ROS2 通信机制、AutoCAD/Solidworks 基础                   | 🚧    |
+| **4. 软件基础设施** | ROS/ROS2 通信机制、[Build123d / Text-to-CAD / ForgeCAD 代码建模](./21-机械臂和机器人设计/README.md)、AutoCAD/SolidWorks 基础                   | 🚧    |
 
   ### 二、核心技术 - 给机器人装上大脑
 
