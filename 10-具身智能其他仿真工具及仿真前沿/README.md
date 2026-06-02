@@ -18,6 +18,7 @@
 - [Isaac Lab + GR00T 云部署教程](01Isaac部署与GR00T实践/02阿里云部署Isaac-Lab-GR00T完整教程.md) - 阿里云环境下的历史版本 Isaac Lab 和 GR00T 部署流程。
 - [Genesis 环境配置](Genesis仿真环境配置/01环境配置和测试.md) - Genesis 仿真平台环境配置。
 - [Genesis 可视化和渲染](Genesis仿真环境配置/02可视化和渲染.md) - Genesis 可视化和渲染实践。
+- [Genesis World 1.0 完整体验](Genesis仿真环境配置/03Genesis%20World%201.0完整体验与机器人仿真流水线.md) - 从官方架构、Blackwell/CUDA 环境、Franka 仿真、Nyx 高保真渲染到室内资产导入边界的完整学习章节。
 - [GenieSim 配置](07GenieSim配置.md) - GenieSim 环境配置。
 - [GenieSim3 配置](08GenieSim3配置.md) - GenieSim3 环境配置。
 - [UniLab + MotrixSim 异构训练](11UniLab-MotrixSim异构RL训练/README.md) - CPU 仿真与 GPU learner 分离的机器人 RL 训练实践。
