@@ -4,8 +4,6 @@ wsl
 
 ![image.png](./assets/a85b9693-6964-4d81-9cee-e2a1e5d7313c.png)
 
-
-
 安装完成后
 
 ```bash
@@ -57,7 +55,7 @@ wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 W
 
 这个设置wsl setting 设置网络为mirror即可
 
-![image-20251004125329464](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\wsl\assets\image-20251004125329464.png)
+![image-20251004125329464](assets/image-20251004125329464.png)
 
 
 
@@ -237,4 +235,3 @@ mate桌面需要额外安装的包
 ```
 
 ```
-

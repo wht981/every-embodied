@@ -1,0 +1,2 @@
+﻿timestamp,pid,elapsed_sec,gpu_mem_used_mib,gpu_mem_total_mib,gpu_util_pct,cpu_total_pct,sys_mem_used_gib,sys_mem_total_gib,python_rss_mib
+2026-05-31T21:01:54,100188,0,0,6144,0,53.02,28.84,63.35,0

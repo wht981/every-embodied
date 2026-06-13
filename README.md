@@ -132,6 +132,36 @@
       <br>
       <sub>连续环境视觉语言导航 (VLN-CE) 领域强力 Baseline</sub>
     </td>
+    <td width="33%" valign="top" align="center">
+      <img src="assets/lingbot_map_university.gif" width="100%">
+      <br>
+        <strong><a href="./04-具身场景的计算机视觉、3D重建/03-LingBot-Map视频流式三维重建.md">LingBot-Map 视频建图</a></strong>
+      <br>
+      <sub>从连续校园视频流式估计轨迹、深度与点云</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <img src="./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/assets/screenshots/teaser_pbr_overview.png" width="100%">
+      <br>
+        <strong><a href="./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/README.md">UniLab + MotrixSim 异构 RL</a></strong>
+      <br>
+      <sub>6GB 显卡跑通 state-based RL，并体验 uv run --no-sync demo teaser 的 PBR 渲染器</sub>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="./10-具身智能其他仿真工具及仿真前沿/09SIM1柔体仿真与数据生成/assets/sim1/sim1-replay-smoke-frame.png" width="100%">
+      <br>
+        <strong><a href="./10-具身智能其他仿真工具及仿真前沿/09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md">SIM1 柔体仿真与数据生成</a></strong>
+      <br>
+      <sub>双臂布料任务的 replay、渲染与扩散轨迹生成流程</sub>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/assets/official_3dprinter_gpt52codex_frame.png" width="100%">
+      <br>
+        <strong><a href="./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/README.md">ForgeCAD 3D 打印机、键盘与灵巧手</a></strong>
+      <br>
+      <sub>复刻 public kit 的 3D 打印机、视频键盘和可动灵巧手案例，跑通参数渲染 GIF 与 STEP/STL/3MF 导出</sub>
+    </td>
   </tr>
 
 
@@ -174,6 +204,17 @@
 | **第三阶段** | 模仿学习、大模型(VLA/VLN)、Sim2Real | 复现大模型导航VLN、OpenVLA、SmolVLA 等前沿项目，实现仿真或真实部署 |
 
   ## 🔥 News & Highlights
+  - **[2026-06-02]** 新增 [RISE 自我改进机器人策略复现教程](./17-具身世界模型/RISE自我改进机器人策略复现/README.md)，覆盖论文方法、组合世界模型流水线、OpenPI policy/value、LTX-Video dynamics model、RLinf imagination RL、Blackwell cu128 环境适配、公开模型资产下载校验，以及官方图与视频素材本地归档。
+  - **[2026-06-02]** 新增 [LeWorldModel 世界模型分析解读与实验复现](./17-具身世界模型/Leworldmodel分析解读与实验复现/Leworldmodel分析解读与实验复现.md)，补充世界模型基础概念、表征崩溃问题、SIGReg 正则、潜空间预测与规划流程，适合作为 RISE 前置理论阅读。
+  - **[2026-06-02]** 新增 [AGILE 人形机器人 Loco-Manipulation Isaac Lab 复现教程](./05-具身场景的深度和强化学习/03AGILE人形机器人Loco-Manipulation复现/README.md)，覆盖官方任务边界、Isaac Sim 5.1 / Isaac Lab 2.3.2 复刻、T1/G1 本地渲染视频、pick-place checkpoint 未随仓库开源说明、评估报告与 Sim2MuJoCo 链路。
+  - **[2026-06-02]** 新增 [HIMLoco 四足机器人运动控制 Isaac Lab 复现教程](./05-具身场景的深度和强化学习/02HIMLoco-IsaacLab复现/README.md)，覆盖论文方法、原仓库流水线、Blackwell GPU 旧栈排障、Isaac Lab 迁移、smoke test 曲线与本地渲染视频。
+  - **[2026-06-02]** 新增 [Genesis World 1.0 完整体验与机器人仿真流水线](./10-具身智能其他仿真工具及仿真前沿/Genesis仿真环境配置/03Genesis%20World%201.0完整体验与机器人仿真流水线.md)，补充 Genesis World 1.0 环境配置、机器人仿真流程和功能体验记录。
+  - **[2026-05-31]** 新增 [ForgeCAD 官方 3D 打印机、键盘与灵巧手案例复现](./21-机械臂和机器人设计/03ForgeCAD视觉逆向工程入门/README.md)，对齐 `KoStard/forgecad-public-kit` 的 `3dprinter-gpt52codex` benchmark，补充视频键盘和官方可动灵巧手，跑通参数渲染 GIF、多视角截图、STEP/STL/3MF 导出和打印检查边界说明。
+  - **[2026-05-31]** 新增 [UniLab + MotrixSim 异构机器人 RL 训练复现](./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/README.md)，覆盖 6GB 显卡上的 state-based RL 训练、资源占用记录、MotrixSim checkpoint 回放，以及 `uv run --no-sync demo teaser` 的 PBR renderer 多视角截图体验。
+  - **[2026-05-14]** 新增 [LingBot-Map 视频流式三维重建教程](./04-具身场景的计算机视觉、3D重建/03-LingBot-Map视频流式三维重建.md)，覆盖官方连续校园场景 smoke test、点云渲染预览、环境配置、代码与论文数据流讲解，以及轻量本地 Web demo。
+  - **[2026-05-12]** 新增 [Build123d 代码建模](./21-机械臂和机器人设计/01Build123d代码建模入门/README.md) 与 [Text-to-CAD 6DOF 教学机械臂](./21-机械臂和机器人设计/02Text-to-CAD工程化建模入门/README.md) 教程，补充 CAD-as-code、Codex CAD skill、STEP/STL/GLB 生成与预览。
+  - **[2026-05-11]** 新增 [DiT4DiT-LIBERO 训练与评估复现教程](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/05DiT4DiT-LIBERO/01DiT4DiT-LIBERO训练与评估.md)，覆盖官方方法图解、LIBERO 评估 smoke test、`libero_spatial` 训练 smoke test、数据元信息修复、日志与多视角视频结果展示。
+  - **[2026-04-29]** 新增 [SIM1 柔体仿真与数据生成](./10-具身智能其他仿真工具及仿真前沿/09SIM1柔体仿真与数据生成/01SIM1环境配置与运行.md)、[InternVerse / InternDataEngine 小空间体验教程](./10-具身智能其他仿真工具及仿真前沿/10Internverse教程/InternDataEngine_小空间功能体验教程.md)、[EBench / GenManip 最小复现记录](./09-具身智能数据及评估基准benchmark/04-EBench.md)，补充仿真数据生成、合成数据引擎与评测基准介绍。
   - **[2026-04-11]** 新增了无人机相关教程：系统的讲解无人机从控制到轨迹生成再到轨迹优化的完整流程，包括比较难以理解的微分平坦性，SE3控制器，minimumsnap轨迹优化等内容，包含12个可运行的简单易懂案例，不用复杂的环境，不用复杂的代码，助你从零入门无人机。
   - **[2026-04-07]** 新增LeWorldModel世界模型教程和复现指导！用最通俗的话、最清晰的结构，把LeWM从头到尾讲明白，一步到位带你吃透最新的LeWM世界模型算法，不管是入门世界模型还是深入科研都能用
   - **[2026-03-17]** 新增具身导航综合入门实践视频教程！仅需“半天”即可走通从感知决策再到规划控制的所有的算法：从入门具身导航到深入研究一站式
@@ -239,23 +280,25 @@
 | 2 | 机器人学基础 | [空间描述与坐标变换](./02-机器人基础和控制、手眼协调/01机器人空间描述与坐标变换.md)、[运动学与 DH 参数](<./02-机器人基础和控制、手眼协调/02机器人运动学与 DH 参数.md>)、[动力学](./02-机器人基础和控制、手眼协调/03机器人动力学.md)、[雅可比矩阵](./02-机器人基础和控制、手眼协调/04速度运动学与雅可比矩阵.md) | ✅ |
 | 3 | 控制与手眼协调 | [PID 控制](./02-机器人基础和控制、手眼协调/补充02PID_Control.md)、[手眼协调](./02-机器人基础和控制、手眼协调/补充01手眼协调.md)、[综合实战与仿真](./02-机器人基础和控制、手眼协调/05综合实战与仿真.md) | ✅ |
 | 4 | 硬件与数据采集 | [RDK X5 入门](./03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/01RDKX5超新手入门教程.md)、[LeRobot 遥操作](./03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/03RDK-X5连接lerobot机械臂进行遥操作.md)、[执行器选型](./03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/05执行器原理与选型.md)、[传感器与采集](./03-机器人硬件、lerobot及地瓜RDK-X5开发板控制教程/06传感器选型与数据采集.md) | ✅ |
+| 5 | 软件基础设施 | ROS/ROS2 通信机制、[Build123d / Text-to-CAD / ForgeCAD 代码建模](./21-机械臂和机器人设计/README.md)、AutoCAD/SolidWorks 基础 | 🚧 |
 
   ### 二、核心技术 - 从感知到决策控制
 
 | 顺序 | 模块 | 推荐笔记 | 状态 |
 | :--- | :--- | :--- | :--- |
-| 5 | 具身视觉与三维理解 | [SAM 与深度估计](./04-具身场景的计算机视觉、3D重建/01-sam和深度估计.md)、[抓取注意力热图](./04-具身场景的计算机视觉、3D重建/02-抓取注意力热图.md) | ✅ |
-| 6 | 深度学习与强化学习 | [多机器人搬运家具强化学习](./05-具身场景的深度和强化学习/01多机器人搬运家具强化学习.md)、[ManiSkill Sim2Real](./05-具身场景的深度和强化学习/补充02maniskill_sim2real.md) | ✅ |
-| 7 | 策略抓取与 VLA | [VLA 总结综述](./06-策略抓取或抓取VLA/01VLA相关总结综述.md)、[SmolVLA-LIBERO](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/01SmolVLA-LIBERO/01SmolVLA-libero.md)、[OpenVLA 复现](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/02OpenVLA复现/02openvla复现.md)、[RT 系列论文解读](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/03RT系列论文解读与代码分析/01RT系列论文解读与代码分析.md) | ✅ |
-| 8 | 运动生成与操作控制 | [春晚舞蹈机器人复刻](./07-机器人操作、运动控制/Locomotion/01春晚舞蹈机器人复刻.md)、[MuJoCo 复现 ACT、Pi0、SmolVLA](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/04mujoco复现ACT、Pi0、SmolVLA/README.md) | ✅ |
+| 6 | 具身视觉与三维理解 | [SAM 与深度估计](./04-具身场景的计算机视觉、3D重建/01-sam和深度估计.md)、[抓取注意力热图](./04-具身场景的计算机视觉、3D重建/02-抓取注意力热图.md)、[视频流式三维重建 (LingBot-Map)](./04-具身场景的计算机视觉、3D重建/03-LingBot-Map视频流式三维重建.md) | ✅ |
+| 7 | 运动与控制 | 路径规划 (A*/RRT)、轨迹优化、PID 与 MPC 控制、模仿学习 (IL)、[ACT 复现](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/04mujoco复现ACT、Pi0、SmolVLA/3.train.ipynb)、[Hand-Eye 标定](./02-机器人基础和控制、手眼协调/补充01手眼协调.md)、AnyGrasp 抓取算法、灵巧手操作 | 🚧 |
+| 8 | 深度学习与强化学习 | [多机器人搬运家具强化学习](./05-具身场景的深度和强化学习/01多机器人搬运家具强化学习.md)、[ManiSkill Sim2Real](./05-具身场景的深度和强化学习/补充02maniskill_sim2real.md)、[UniLab + MotrixSim state-based RL 训练](./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/README.md) | ✅ |
+| 9 | 仿真环境 | [仿真工具总览](./10-具身智能其他仿真工具及仿真前沿/README.md)、[ManiSkill](./10-具身智能其他仿真工具及仿真前沿/02Maniskill环境仿真配置.md)、Isaac Sim 高级渲染、[MuJoCo 物理引擎下 OMY/Nova5/Franka 机械臂和 ACT/Pi0/SmolVLA 算法复现](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/04mujoco复现ACT、Pi0、SmolVLA)、[Genie-Sim3 教程](./10-具身智能其他仿真工具及仿真前沿/08GenieSim3配置.md)、[MotrixSim PBR teaser 渲染体验](./10-具身智能其他仿真工具及仿真前沿/11UniLab-MotrixSim异构RL训练/README.md#7-扩展体验motrixsim-pbr-teaser-渲染器) | ✅ |
 
   ### 三、导航、仿真与评估 - 形成可复现实验闭环
 
 | 顺序 | 模块 | 推荐笔记 | 状态 |
 | :--- | :--- | :--- | :--- |
-| 9 | 具身导航与 VLN | [具身导航算法基本介绍](./08-具身导航及VLN/01快速入门导航算法详解及实战/具身导航算法基本介绍.md)、[Habitat-Sim 环境搭建](./08-具身导航及VLN/02仿真环境基础/habitat导航环境/habitat_sim环境搭建及数据集介绍.md)、[VLN-CE 方法概述](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/01连续环境下视觉语言导航（VLN-CE）方法概述.md)、[ETPNav 复现](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md) | ✅ |
-| 10 | 数据与评估基准 | [LIBERO](./09-具身智能数据及评估基准benchmark/01-libero.md)、[SimplerEnv](./09-具身智能数据及评估基准benchmark/02-simplerenv.md)、[VR 数据采集](./09-具身智能数据及评估基准benchmark/03-VR数据采集.md)、[开源项目推荐](./09-具身智能数据及评估基准benchmark/99-相关开源项目推荐.md) | ✅ |
-| 11 | 仿真工具链 | [仿真工具总览](./10-具身智能其他仿真工具及仿真前沿/README.md)、[ManiSkill](./10-具身智能其他仿真工具及仿真前沿/02Maniskill环境仿真配置.md)、[Isaac Sim](./10-具身智能其他仿真工具及仿真前沿/03issac-sim配置.md)、[Genesis](./10-具身智能其他仿真工具及仿真前沿/Genesis仿真环境配置/01环境配置和测试.md)、[GenieSim3](./10-具身智能其他仿真工具及仿真前沿/08GenieSim3配置.md) | ✅ |
+| 10 | 具身导航与 VLN | [具身导航算法基本介绍](./08-具身导航及VLN/01快速入门导航算法详解及实战/具身导航算法基本介绍.md)、[Habitat-Sim 环境搭建](./08-具身导航及VLN/02仿真环境基础/habitat导航环境/habitat_sim环境搭建及数据集介绍.md)、[VLN-CE 方法概述](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/01连续环境下视觉语言导航（VLN-CE）方法概述.md)、[ETPNav 复现](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md) | ✅ |
+| 11 | 数据与评估基准 | [LIBERO](./09-具身智能数据及评估基准benchmark/01-libero.md)、[SimplerEnv](./09-具身智能数据及评估基准benchmark/02-simplerenv.md)、[VR 数据采集](./09-具身智能数据及评估基准benchmark/03-VR数据采集.md)、[开源项目推荐](./09-具身智能数据及评估基准benchmark/99-相关开源项目推荐.md) | ✅ |
+| 12 | VLA 大模型 | [VLA 总结综述](./06-策略抓取或抓取VLA/01VLA相关总结综述.md)、[SmolVLA 训练和部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/01SmolVLA-LIBERO/01SmolVLA-libero.md)、[OpenVLA 部署](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/02OpenVLA复现/02openvla复现.md)、[DiT4DiT-LIBERO 训练与评估](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/05DiT4DiT-LIBERO/01DiT4DiT-LIBERO训练与评估.md)、[RT-1 / RT-2 / RT-X 论文解读与代码分析](./06-策略抓取或抓取VLA/大模型控制、VLA、VLM/03RT系列论文解读与代码分析/01RT系列论文解读与代码分析.md) | ✅ |
+| 13 | VLN 大模型 | [VLN 概念基础](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md)、[ETPNav](./08-具身导航及VLN/03前沿VLN复现/01VLNCE/02ETPNav代码复现.md) | ✅ |
 
   ### 四、前沿专题 - 项目复现、世界模型、无人机与面试
 
@@ -338,8 +381,4 @@
   <br />
   你可以自由分享与改编本项目内容，但需保留来源署名。详细条款见 <a href="LICENSE">LICENSE</a>。
   </div>
-
-
-
-
 

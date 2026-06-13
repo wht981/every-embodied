@@ -199,6 +199,8 @@ datawhale_eai_pnp_language
 # Local ebook web app dependencies
 node_modules/
 artifacts/
+.lingbot_web_runs/
+lingbot_map_runs/
 
 # Keep ebook web shared logic tracked
 !web/lib/
@@ -208,3 +210,19 @@ artifacts/
 .obsidian/workspace.json
 .obsidian/graph.json
 .obsidian/cache
+
+# SIM1 local generated artifacts; readers can regenerate these
+**/replay/
+**/out_updated/
+**/blend_out/
+**/lerobot_dataset/
+**/lmdb/
+*.mdb
+*.lmdb
+*.blend
+*.blend1
+*.usd
+*.usda
+*.usdc
+*.npz
+*.parquet

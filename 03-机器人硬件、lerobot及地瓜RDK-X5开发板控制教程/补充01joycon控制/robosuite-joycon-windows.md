@@ -17,7 +17,7 @@ cd joycon-robotics # 需要修改setup.py
 pip install -e .
 ```
 
-![image-20251026122304744](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\12-传感器配置\01joycon控制\assets\image-20251026122304744.png)
+![image-20251026122304744](assets/image-20251026122304744.png)
 
 ```
 # sudo apt install dkms

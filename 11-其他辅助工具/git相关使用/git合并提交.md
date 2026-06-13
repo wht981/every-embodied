@@ -27,7 +27,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 git pull时，遇到
 
-![image-20251012165953896](C:\Users\kewei\Documents\2025\04资料整理\03具身教程编写\ai-hardware-robotics\11-其他辅助工具\git相关使用\assets\image-20251012165953896.png)
+![image-20251012165953896](assets/image-20251012165953896.png)
 
 - 我们刚刚执行 git pull，Git 发现需要生成一个 merge commit，于是启动默认编辑器（当前是 Vim）让你填写这次合并的提交说明。窗口里显示的内容是默认的 merge message：Merge branch 'main' of https://github.com/datawhalechina/ai-hardware-robotics，后面的 # 开头的行只是注释，最终提交时会被忽略。
 - 如果接受默认信息，不需要改什么：在 Vim 里按 Esc，然后输入 :wq 回车保存并退出。编辑器关闭后，Git 会创建这个 merge commit，git pull 就完成了。
