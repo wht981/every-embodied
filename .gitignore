@@ -203,3 +203,8 @@ artifacts/
 # Keep ebook web shared logic tracked
 !web/lib/
 !web/lib/*.js
+
+# Obsidian workspace state should not be shared
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/cache
